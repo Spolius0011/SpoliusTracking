@@ -9,7 +9,7 @@ document.getElementById('tracking-form').addEventListener('submit', function (e)
     const estados = {
       "136534CO": "En tránsito - Tu paquete esta siendo preparado para ser enviado  ARIZONA(ESTADOS UNIDOS)- IBAGUE(COLOMBIA).",
       "356842CO": "En tránsito - Tu paquete esta siendo preparado para ser enviado  ARIZONA(ESTADOS UNIDOS)- PEREIRA(COLOMBIA).",
-      "375848CO": "En tránsito - Tu paquete esta siendo preparado para ser enviado  ARIZONA(ESTADOS UNIDOS)- BOGOTA(COLOMBIA).",
+      "375847CO": "En tránsito - Tu paquete esta siendo preparado para ser enviado  ARIZONA(ESTADOS UNIDOS)- BOGOTA(COLOMBIA).",
       "SP001": "En espera - El paquete está en aduana para verificación.",
     };
   
