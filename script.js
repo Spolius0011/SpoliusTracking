@@ -7,7 +7,7 @@ document.getElementById('tracking-form').addEventListener('submit', function (e)
   
     // Personaliza los números de seguimiento y sus estados aquí
     const estados = {
-      "136534CO": "En tránsito - Tu paquete esta siendo preparado para ser enviado  ARIZONA(ESTADOS UNIDOS)- IBAGE(COLOMBIA).",
+      "136534CO": "En tránsito - Tu paquete esta siendo preparado para ser enviado  ARIZONA(ESTADOS UNIDOS)- IBAGUE(COLOMBIA).",
       "356842CO": "En tránsito - Tu paquete esta siendo preparado para ser enviado  ARIZONA(ESTADOS UNIDOS)- PEREIRA(COLOMBIA).",
       "SP789": "Retrasado - Se ha presentado un retraso por mal clima.",
       "SP001": "En espera - El paquete está en aduana para verificación.",
