@@ -1,0 +1,132 @@
+/* Tipografía general */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('fondo-paquetes.png'); /* Fondo elegante */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Animación de aparición */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Contenedor principal */
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  animation: fadeIn 1s ease-out;
+}
+
+/* Título principal */
+h1 {
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+/* Descripción debajo del título */
+.description {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* Estilo del formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Input de texto */
+input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Botón de envío */
+button {
+  width: 50%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Resultado del seguimiento */
+#tracking-result {
+  margin-top: 20px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#result-message {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Ocultar resultado al inicio */
+.hidden {
+  display: none;
+}
+
+/* Estilo responsivo para móviles */
+@media (max-width: 600px) {
+  input[type="text"], button {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
