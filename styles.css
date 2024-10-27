@@ -53,6 +53,13 @@ h1 {
   font-weight: 300;
 }
 
+/* Imagen que se adapta a diferentes tamaños de pantalla */
+.imagen-responsiva {
+  max-width: 100%; /* La imagen no excederá el 100% del contenedor */
+  height: auto;    /* Mantiene la proporción de la imagen */
+  margin-bottom: 20px; /* Espacio debajo de la imagen */
+}
+
 /* Estilo del formulario */
 form {
   display: flex;
@@ -130,3 +137,4 @@ button:hover {
     font-size: 14px;
   }
 }
+
