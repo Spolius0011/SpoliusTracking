@@ -7,9 +7,9 @@ document.getElementById('tracking-form').addEventListener('submit', function (e)
   
     // Personaliza los números de seguimiento y sus estados aquí
     const estados = {
-      "136534CO": "En tránsito - Tu paquete esta siendo preparado para ser enviado  ARIZONA(ESTADOS UNIDOS)- IBAGUE(COLOMBIA).",
-      "356842CO": "En tránsito - Tu paquete esta siendo preparado para ser enviado  ARIZONA(ESTADOS UNIDOS)- PEREIRA(COLOMBIA).",
-      "375847CO": "En tránsito - Tu paquete esta siendo preparado para ser enviado  ARIZONA(ESTADOS UNIDOS)- BOGOTA(COLOMBIA).",
+      "136534CO": "En tránsito - Tu paquete estaesta saliendo del aeropuerto internacional de Miami  ARIZONA(ESTADOS UNIDOS)- IBAGUE(COLOMBIA).",
+      "356842CO": "En tránsito - Tu paquete esta esta saliendo del aeropuerto internacional de Miami ARIZONA(ESTADOS UNIDOS)- PEREIRA(COLOMBIA).",
+      "375856CO": "En tránsito - Tu paquete esta saliendo del aeropuerto internacional de Miami  ARIZONA(ESTADOS UNIDOS)- PASTO(COLOMBIA).",
       "SP001": "En espera - El paquete está en aduana para verificación.",
     };
   
